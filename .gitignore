@@ -1,0 +1,27 @@
+
+*.pyc
+__pycache__/
+*.pyd
+*.pyo
+
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+.DS_Store
+.vscode/ # VS Code settings
+.idea/   # PyCharm/IntelliJ IDEA
+*.sublime-project
+*.sublime-workspace
+*.swp    # Vim swap files
+*~       # Emacs backup files
+
+*.sqlite3
+*.db
+/db.sqlite3
+
+.env
